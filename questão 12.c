@@ -15,12 +15,14 @@ int main()
     {
         do
         {
-            printf("Digite a %dº nota:", a);
+            printf("Digite a %dÂº nota:", a);
             scanf("%f", &nota);
+
+            system("CLS || CLEAR");
 
             if (nota < 0 || nota > 10)
             {
-                printf("Nota inválida. \nDigite a nota novamnete...\n\n");
+                printf("Nota invÃ¡lida. \nDigite a nota novamnete...\n\n");
             }
         } while (nota < 0 || nota > 10);
 
@@ -29,7 +31,7 @@ int main()
     }
 
     system("cls || clear");
-    printf("Média: %.2f \n\n", media);
+    printf("MÃ©dia: %.2f \n\n", media);
 
     return 0;
 }
